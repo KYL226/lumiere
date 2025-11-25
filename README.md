@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Lumière 
 
-# Run and deploy your AI Studio app
+Une application web moderne pour apprendre la Bible de manière interactive et visuelle, créée avec Vite et React.
+Le dashboard permet de suivre vos lectures, mémoriser des versets, prendre des notes et visualiser votre progression avec des graphiques interactifs.
 
-This contains everything you need to run your app locally.
+📊 Fonctionnalités du Dashboard
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ZF9iUSrw7OUXF48QpskL5v3A2nwhGRaL
+Suivi de lecture quotidien : marquez les chapitres lus et suivez vos progrès.
 
-## Run Locally
+Mémorisation de versets : enregistrez et suivez vos versets mémorisés.
 
-**Prerequisites:**  Node.js
+Notes et réflexions : écrivez vos commentaires, prières et insights pour chaque lecture.
 
+Favoris et surlignages : enregistrez vos versets ou histoires préférés.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Visualisation interactive :
+
+Pie charts pour les livres lus ou thèmes explorés
+
+Line charts pour le suivi des streaks de lecture
+
+Donut charts pour le progrès de mémorisation
+
+Filtrage et recherche : par livre, chapitre, verset ou thème
+
+Quiz et mini-tests : pour réviser et renforcer la mémorisation
+
+Gamification : badges et récompenses pour atteindre vos objectifs de lecture
