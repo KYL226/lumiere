@@ -5,6 +5,7 @@ import ReadingTracker from './components/ReadingTracker';
 import Memorization from './components/Memorization';
 import Journal from './components/Journal';
 import QuizComponent from './components/Quiz';
+import Settings from './components/Settings';
 import { View } from './types';
 import { Moon, Sun, Menu, Bell } from 'lucide-react';
 
@@ -39,12 +40,7 @@ const App: React.FC = () => {
       case 'journal': return <Journal />;
       case 'quiz': return <QuizComponent />;
       case 'stats': return <Dashboard />; // Reuse dashboard for now, or could scroll to stats
-      case 'settings': return (
-        <div className="flex flex-col items-center justify-center h-[50vh] text-slate-500">
-           <p className="text-xl">Paramètres (Démo)</p>
-           <p className="text-sm mt-2">Ici, l'utilisateur pourrait configurer ses rappels et objectifs.</p>
-        </div>
-      );
+      case 'settings': return <Settings />;
       default: return <Dashboard />;
     }
   };
